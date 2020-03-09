@@ -1,0 +1,61 @@
+[
+  {
+    "countryName":"Portugal",
+    "countryId":"1",
+    "states":[
+      {
+        "stateName":"Aasiya Jayavant",
+        "stateId":"1"
+      },
+      {
+        "stateName":"Luvleen Lawrence",
+        "stateId":"2"
+      },
+      {
+        "stateName":"Rey Miborne",
+        "stateId":"3"
+      },
+      {
+        "stateName":"Cayla Brister",
+        "stateId":"4"
+      }
+    ]
+  },
+
+  {
+    "countryName":"Nicaragua",
+    "countryId":"2",
+    "states":[
+      {
+        "stateName":"Deveedaas Nandi",
+        "stateId":"1"
+      },
+      {
+        "stateName":"Obasey Chidy",
+        "stateId":"2"
+      },
+      {
+        "stateName":"Xenie Dolezelova",
+        "stateId":"3"
+      },
+      {
+        "stateName":"Ezequiel Dengra",
+        "stateId":"4"
+      }
+    ]
+  },
+  {
+    "countryName":"Marshall Islands",
+    "countryId":"3",
+    "states":[
+      {
+        "stateName":"Aaron Almaraz",
+        "stateId":"1"
+      },
+      {
+        "stateName":"Jelena Denisova",
+        "stateId":"2"
+      }
+    ]
+  }
+]
