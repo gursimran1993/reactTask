@@ -17,6 +17,17 @@ class CountryCard extends Component {
       dispatch(removeCountry(countryId, stateId))
       
   }
+  getChecked = (countryId, stateId) => {
+    const { countries } = this.props
+    const country = countries.find(countryData => countryData.countryId === countryId)
+    if (country) {
+    const stateData = country.states.find(state => state.stateId === stateId)
+    if (stateData)
+    return true
+    return false
+    }
+    return false
+    }
   render() {
    console.log(this.props.countries, "afgh")
     return (
@@ -33,7 +44,7 @@ class CountryCard extends Component {
                     item.states.map(state => (
                       <Typography color="textSecondary" key={state.stateId}>
                         <Checkbox
-                          checked={state.checkedB}
+                          checked={this.getChecked(item.countryId, state.stateId)}
                           onChange={(event) => this.handleCheck(state.stateId, item.countryId, event)}
                           value={state.stateId}
                           color="primary"
@@ -44,7 +55,7 @@ class CountryCard extends Component {
                       </Typography>
                     ))
                   }
-                </Fragment>
+                  </Fragment>
               ))
             }
 

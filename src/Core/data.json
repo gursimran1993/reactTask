@@ -28,19 +28,19 @@
     "states":[
       {
         "stateName":"Deveedaas Nandi",
-        "stateId":"1"
+        "stateId":"2.1"
       },
       {
         "stateName":"Obasey Chidy",
-        "stateId":"2"
+        "stateId":"2.2"
       },
       {
         "stateName":"Xenie Dolezelova",
-        "stateId":"3"
+        "stateId":"2.3"
       },
       {
         "stateName":"Ezequiel Dengra",
-        "stateId":"4"
+        "stateId":"2.4"
       }
     ]
   },
@@ -50,11 +50,11 @@
     "states":[
       {
         "stateName":"Aaron Almaraz",
-        "stateId":"1"
+        "stateId":"3.1"
       },
       {
         "stateName":"Jelena Denisova",
-        "stateId":"2"
+        "stateId":"3.2"
       }
     ]
   }
