@@ -16,19 +16,18 @@ class DetailCard extends Component {
   render() {
     const { countries } = this.props
     return (
-      <Card style={{ width: 500, height:'100%' }}>
+      <Card style={{ height:'100%' }}>
         <CardContent>
         {Boolean(countries.length) ?
             countries.map(item => (
-              <Fragment>
+              <Fragment key={item.countryId}>
                 <Typography variant="h5" component="h2" key={item.countryId}>
                   {item.countryName}
                 </Typography>
                 {
                   item.states.map(state => (
-                    <Typography color="textSecondary" key={state.stateId}>
-                      <Chip label={state.stateName} onDelete={() => this.handleCheck(state.stateId, item.countryId)} color="primary" />
-                    </Typography>
+                      <Chip label={state.stateName} key={state.stateId} onDelete={() => this.handleCheck(state.stateId, item.countryId)} color="primary" />
+                    
                   ))
                 }
               </Fragment>

@@ -43,7 +43,6 @@ export default function countryReducer(state = intialState, action) {
           return currentCountry
         })
       }
-      console.log({currentDataBeforeRemove})
 
       currentDataBeforeRemove = currentDataBeforeRemove.filter(country => {
         if (country.states.length) {

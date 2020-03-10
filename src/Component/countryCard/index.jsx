@@ -29,14 +29,13 @@ class CountryCard extends Component {
     return false
     }
   render() {
-   console.log(this.props.countries, "afgh")
     return (
       <div>
-        <Card style={{ width: 500 }}>
+        <Card>
           <CardContent>
             {
               data.map(item => (
-                <Fragment>
+                <Fragment key={item.countryId}>
                   <Typography variant="h5" component="h2" key={item.countryId}>
                     {item.countryName}
                   </Typography>

@@ -3,3 +3,15 @@
     margin: 4px;
     justify-content: flex-start;
 }
+
+.MuiChip-colorPrimary{
+  display: block !important;
+}
+.MuiChip-label{
+  line-height: 27px;
+}
+
+.MuiChip-deleteIcon{
+  margin: 4px 5px 0 -6px !important;
+  float: right;
+}
