@@ -10,7 +10,7 @@ import { addCountry, removeCountry } from '../../Redux/Action/adddataAction'
 
 class CountryCard extends Component {
   handleCheck = (stateId, countryId, event) => {
-    const { dispatch, countries } = this.props
+    const { dispatch } = this.props
     if (event.target.checked)
       dispatch(addCountry(countryId, stateId))
     else
